@@ -1,0 +1,165 @@
+{
+  "name": "rust-generator",
+  "displayName": "Rust Generator",
+  "description": "Rust file template generator",
+  "publisher": "Djbrown184",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.146.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "rust",
+    "cargo",
+    "generator",
+    "module",
+    "struct"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "rust-generator.newRustFile",
+        "title": "New Rust File...",
+        "category": "Rust Generator"
+      },
+      {
+        "command": "rust-generator.newFile",
+        "title": "Rust File"
+      },
+      {
+        "command": "rust-generator.newStruct",
+        "title": "Struct"
+      },
+      {
+        "command": "rust-generator.newEnum",
+        "title": "Enum"
+      },
+      {
+        "command": "rust-generator.newTrait",
+        "title": "Trait"
+      },
+      {
+        "command": "rust-generator.newModule",
+        "title": "Module"
+      },
+      {
+        "command": "rust-generator.newBuildScript",
+        "title": "Build Script"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "rust-generator.newSubmenu",
+        "label": "New Rust File"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "submenu": "rust-generator.newSubmenu",
+          "when": "explorerResourceIsFolder && rust-generator.isCargoProject",
+          "group": "navigation@1"
+        }
+      ],
+      "rust-generator.newSubmenu": [
+        {
+          "command": "rust-generator.newFile",
+          "group": "1_items@1"
+        },
+        {
+          "command": "rust-generator.newStruct",
+          "group": "1_items@2"
+        },
+        {
+          "command": "rust-generator.newEnum",
+          "group": "1_items@3"
+        },
+        {
+          "command": "rust-generator.newTrait",
+          "group": "1_items@4"
+        },
+        {
+          "command": "rust-generator.newModule",
+          "group": "1_items@5"
+        },
+        {
+          "command": "rust-generator.newBuildScript",
+          "when": "resourcePath in rust-generator.crateRoots",
+          "group": "2_build@1"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "rust-generator.newRustFile",
+          "when": "rust-generator.isCargoProject"
+        },
+        {
+          "command": "rust-generator.newFile",
+          "when": "false"
+        },
+        {
+          "command": "rust-generator.newStruct",
+          "when": "false"
+        },
+        {
+          "command": "rust-generator.newEnum",
+          "when": "false"
+        },
+        {
+          "command": "rust-generator.newTrait",
+          "when": "false"
+        },
+        {
+          "command": "rust-generator.newModule",
+          "when": "false"
+        },
+        {
+          "command": "rust-generator.newBuildScript",
+          "when": "false"
+        }
+      ]
+    },
+    "keybindings": [
+      {
+        "command": "rust-generator.newRustFile",
+        "key": "ctrl+shift+alt+r",
+        "mac": "cmd+shift+alt+r",
+        "when": "rust-generator.isCargoProject && (editorTextFocus || filesExplorerFocus)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "24.x",
+    "@types/vscode": "^1.146.0",
+    "@vscode/test-cli": "^0.0.15",
+    "@vscode/test-electron": "^3.0.0",
+    "@vscode/vsce": "^4.1.0",
+    "eslint": "^10.5.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1"
+  },
+  "overrides": {
+    "diff": "^8.0.4",
+    "serialize-javascript": "^7.0.6"
+  },
+  "allowScripts": {
+    "@vscode/vsce-sign@2.1.0": true
+  }
+}
