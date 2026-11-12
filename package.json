@@ -1,8 +1,8 @@
 {
   "name": "rust-generator",
   "displayName": "Rust Generator",
-  "description": "Rust file template generator",
-  "publisher": "Djbrown184",
+  "description": "Create Rust files, structs, enums, traits, modules and build scripts from the explorer context menu.",
+  "publisher": "pierreyvesdelion",
   "version": "0.1.0",
   "license": "MIT",
   "repository": {
