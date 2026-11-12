@@ -5,6 +5,14 @@
   "publisher": "Djbrown184",
   "version": "0.1.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pierreyvesdelion/rust-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pierreyvesdelion/rust-generator/issues"
+  },
+  "homepage": "https://github.com/pierreyvesdelion/rust-generator#readme",
   "engines": {
     "vscode": "^1.146.0"
   },
