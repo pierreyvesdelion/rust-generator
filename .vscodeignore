@@ -11,3 +11,4 @@ vsc-extension-quickstart.md
 **/*.ts
 **/.vscode-test.*
 README.fr.md
+.github/**

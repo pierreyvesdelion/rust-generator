@@ -1,5 +1,9 @@
 # Rust Generator
 
+<p align="center">
+  <img src=".github/assets/banner.jpg" alt="Rust Generator banner" width="600">
+</p>
+
 Crée des fichiers Rust, des struct, enum, trait, modules et scripts de build directement depuis l'explorateur de VS Code, sans taper le code répétitif à la main.
 
 🇬🇧 [English version](README.md)

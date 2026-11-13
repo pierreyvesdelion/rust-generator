@@ -13,6 +13,7 @@
     "url": "https://github.com/pierreyvesdelion/rust-generator/issues"
   },
   "homepage": "https://github.com/pierreyvesdelion/rust-generator#readme",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.146.0"
   },
