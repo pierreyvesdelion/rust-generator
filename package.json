@@ -159,7 +159,7 @@
     "@types/vscode": "^1.146.0",
     "@vscode/test-cli": "^0.0.15",
     "@vscode/test-electron": "^3.0.0",
-    "@vscode/vsce": "^4.1.0",
+    "@vscode/vsce": "^4.1.1",
     "eslint": "^10.5.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.61.1"
@@ -169,6 +169,6 @@
     "serialize-javascript": "^7.0.6"
   },
   "allowScripts": {
-    "@vscode/vsce-sign@2.1.0": true
+    "@vscode/vsce-sign@2.1.1": true
   }
 }
