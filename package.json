@@ -3,7 +3,7 @@
   "displayName": "Rust Generator",
   "description": "Create Rust files, structs, enums, traits, modules and build scripts from the explorer context menu.",
   "publisher": "pierreyvesdelion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",

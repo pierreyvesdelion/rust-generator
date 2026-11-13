@@ -4,6 +4,16 @@ All notable changes to the "Rust Generator" extension are documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.1.1] - 2026-11-13
+
+### Added
+
+- Support file (`SUPPORT.md`) pointing to the GitHub issue templates.
+
+### Fixed
+
+- Link to the French section of the README on the Marketplace page.
+
 ## [0.1.0] - 2026-11-13
 
 ### Added

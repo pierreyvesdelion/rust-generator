@@ -6,7 +6,7 @@
 
 Create Rust files, structs, enums, traits, modules and build scripts directly from the VS Code explorer — no boilerplate typing.
 
-🇫🇷 [Version française ↓](#français)
+🇫🇷 [Version française ↓](#version-fr)
 
 ## Features
 
@@ -62,7 +62,7 @@ No external dependency. Works in any Cargo project.
 
 ---
 
-## Français
+## Version FR
 
 <p align="center">
   <img src=".github/assets/banner.jpg" alt="Bannière Rust Generator" width="600">
@@ -122,6 +122,6 @@ Aucune dépendance externe. Fonctionne dans n'importe quel projet Cargo.
 
 [MIT](LICENSE)
 
-[↑ Retour au début de la section française](#français)
+[↑ Retour au début de la section française](#version-fr)
 
 [↑ Retour en haut](#rust-generator)
