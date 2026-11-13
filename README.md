@@ -1,4 +1,3 @@
-<a id="top"></a>
 # Rust Generator
 
 <p align="center">
@@ -7,11 +6,9 @@
 
 Create Rust files, structs, enums, traits, modules and build scripts directly from the VS Code explorer — no boilerplate typing.
 
-🇫🇷 [Version française ↓](#francais)
+🇫🇷 [Version française ↓](#français)
 
 ## Features
-
-*(Anchor test: [Fonctionnalités](#fonctionnalités))*
 
 Right-click a folder inside a Cargo project to get a **New Rust File** submenu:
 
@@ -43,12 +40,11 @@ No external dependency. Works in any Cargo project.
 
 [MIT](LICENSE)
 
-[↑ Back to top](#top)
+[↑ Back to top](#rust-generator)
 
 ---
 
-<a id="francais"></a>
-## Rust Generator (Français)
+## Français
 
 <p align="center">
   <img src=".github/assets/banner.jpg" alt="Bannière Rust Generator" width="600">
@@ -56,7 +52,7 @@ No external dependency. Works in any Cargo project.
 
 Crée des fichiers Rust, des struct, enum, trait, modules et scripts de build directement depuis l'explorateur de VS Code, sans taper le code répétitif à la main.
 
-🇬🇧 [English version ↑](#top)
+🇬🇧 [English version ↑](#rust-generator)
 
 ## Fonctionnalités
 
@@ -90,5 +86,6 @@ Aucune dépendance externe. Fonctionne dans n'importe quel projet Cargo.
 
 [MIT](LICENSE)
 
-[↑ Retour au début de la section française](#francais)<br>
-[↑ Retour en haut](#top)
+[↑ Retour au début de la section française](#français)
+
+[↑ Retour en haut](#rust-generator)
