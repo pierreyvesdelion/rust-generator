@@ -23,6 +23,24 @@ The keyboard shortcut `Ctrl+Shift+Alt+R` (`Cmd+Shift+Alt+R` on macOS) opens the 
 
 Both the explorer menu and the shortcut only appear inside a Cargo project (a folder containing a `Cargo.toml` with a `[package]` or `[workspace]` section).
 
+## Screenshots
+
+Right-click a folder in the explorer:
+
+![Explorer context menu with the New Rust File submenu](.github/assets/context-menu.png)
+
+Or press `Ctrl+Shift+Alt+R` to pick the item type:
+
+![Item type list](.github/assets/quick-pick.png)
+
+Choose where to declare the new module:
+
+![Parent module selection](.github/assets/parent-module.png)
+
+The file is created and declared:
+
+![Generated struct and mod declaration](.github/assets/result.png)
+
 ## How it works
 
 1. Pick a type.
@@ -68,6 +86,24 @@ Un clic droit sur un dossier d'un projet Cargo fait apparaître un sous-menu **N
 Le raccourci clavier `Ctrl+Shift+Alt+R` (`Cmd+Shift+Alt+R` sur macOS) ouvre la même liste de types, en ciblant le dossier du fichier actuellement ouvert.
 
 Le menu et le raccourci n'apparaissent que dans un projet Cargo (un dossier contenant un `Cargo.toml` avec une section `[package]` ou `[workspace]`).
+
+## Captures d'écran
+
+Clic droit sur un dossier dans l'explorateur :
+
+![Menu contextuel de l'explorateur avec le sous-menu New Rust File](.github/assets/context-menu.png)
+
+Ou `Ctrl+Shift+Alt+R` pour choisir le type d'élément :
+
+![Liste des types d'élément](.github/assets/quick-pick.png)
+
+Choix du fichier où déclarer le nouveau module :
+
+![Choix du module parent](.github/assets/parent-module.png)
+
+Le fichier est créé et déclaré :
+
+![Struct généré et déclaration du module](.github/assets/result.png)
 
 ## Fonctionnement
 
